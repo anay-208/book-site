@@ -55,7 +55,7 @@ export default function OrderPage() {
                 Order Your Custom Notebooks
               </h1>
               <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Upload your design and we'll print it on the first page of your notebooks.
+                Upload your design and we&apos;ll print it on the first page of your notebooks.
               </p>
             </div>
 
