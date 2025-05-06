@@ -40,7 +40,7 @@ export default function TermsPage() {
                 <h2 className="text-xl font-bold tracking-tight">No Real Transactions</h2>
                 <p>
                   While this website simulates an e-commerce experience, no actual payment processing or order
-                  fulfillment will take place. Any &quot;orders&quot; placed through this website are for demonstration purposes
+                  fulfillment will take place. Any "orders" placed through this website are for demonstration purposes
                   only.
                 </p>
               </div>
@@ -49,7 +49,7 @@ export default function TermsPage() {
                 <h2 className="text-xl font-bold tracking-tight">User Content</h2>
                 <p>
                   Any designs or content uploaded to this website during the simulated ordering process are not stored
-                  permanently and will not be used for any purpose beyond the immediate demonstration of the website&apos;s
+                  permanently and will not be used for any purpose beyond the immediate demonstration of the website's
                   functionality.
                 </p>
               </div>

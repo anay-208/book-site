@@ -28,7 +28,7 @@ export default function PrivacyPage() {
               </div>
 
               <div className="space-y-2">
-                <h2 className="text-xl font-bold tracking-tight">Information We Don&apos;t Collect</h2>
+                <h2 className="text-xl font-bold tracking-tight">Information We Don't Collect</h2>
                 <p>
                   As this is a demonstration website, we do not collect, store, or process any personal information. Any
                   designs or content uploaded during the simulated ordering process are not stored permanently.
