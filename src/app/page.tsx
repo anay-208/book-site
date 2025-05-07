@@ -10,7 +10,6 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import ParticleBackground from "@/components/particle-background"
 import AnimatedCounter from "@/components/animated-counter"
-import CursorFollower from "@/components/cursor-follower"
 import FloatingBubbles from "@/components/floating-bubbles"
 import MagneticButton from "@/components/magnetic-button"
 
@@ -43,7 +42,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
-      <CursorFollower />
+
       <Header />
       <main className="flex-1">
         {/* Loading animation */}

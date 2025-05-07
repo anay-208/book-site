@@ -45,7 +45,7 @@ export default function OrderPage() {
   const handlePlaceOrder = () => {
     setShowConfetti(true)
     setTimeout(() => {
-      alert("This is a work in progress. Your order would be processed here in a real implementation.")
+      alert("Due to the blackout scheduled for today, we're currently unable to accept orders. Thank you for your cooperation!")
     }, 500)
   }
 
