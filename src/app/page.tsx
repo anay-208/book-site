@@ -139,7 +139,7 @@ export default function Home() {
                     <span className="font-medium">5 Notebooks</span>
                   </div>
                   <div className="flex items-center gap-1 hover:text-primary transition-colors duration-300">
-                    <span className="font-medium">₹500 Only</span>
+                    <span className="font-medium">₹599 Each</span>
                   </div>
                   <div className="flex items-center gap-1 hover:text-primary transition-colors duration-300">
                     <span className="font-medium">Stone Paper</span>
@@ -150,17 +150,17 @@ export default function Home() {
                 <div className="relative h-[350px] w-full overflow-hidden rounded-xl border bg-muted perspective">
                   <div className="absolute inset-0 z-10 transition-all duration-1000 group-hover:opacity-0 group-hover:rotate-y-180 transform-preserve-3d notebook-cover">
                     <Image
-                      src="/placeholder.svg?height=350&width=500"
+                      src="/book/first.png"
                       alt="Blank notebook"
-                      className="object-cover"
+                      className="object-contain w-full h-full"
                       fill
                     />
                   </div>
                   <div className="absolute inset-0 opacity-0 transition-all duration-1000 group-hover:opacity-100 group-hover:rotate-y-0 rotate-y-180 transform-preserve-3d notebook-inside">
                     <Image
-                      src="/placeholder.svg?height=350&width=500&text=Your+Design+Here"
+                      src="/book/second.png"
                       alt="Customized notebook"
-                      className="object-cover"
+                      className="object-contain w-full h-full"
                       fill
                     />
                   </div>
@@ -322,7 +322,7 @@ export default function Home() {
                     Affordable
                   </h3>
                   <p className="text-gray-500">
-                    Get 5 premium notebooks for just ₹500, with a flat ₹50 delivery charge.
+                    Premium notebooks at ₹599 each, with additional service charges for delivery and processing.
                   </p>
                 </div>
               </div>

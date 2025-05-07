@@ -50,7 +50,7 @@ export default function OrderPage() {
   }
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen justify-center items-center">
       <Header />
       {showConfetti && <ConfettiEffect />}
       <main className="flex-1 py-12">
@@ -155,16 +155,36 @@ export default function OrderPage() {
                           <h3 className="font-medium mb-2">Package Details</h3>
                           <ul className="space-y-2 text-sm">
                             <li className="flex justify-between">
-                              <span>5 Custom Notebooks</span>
-                              <span className="font-medium">₹500</span>
+                              <span>5 Custom Notebooks (₹599 each)</span>
+                              <span className="font-medium">₹2,995</span>
                             </li>
                             <li className="flex justify-between">
                               <span>Delivery Charge</span>
+                              <span className="font-medium">₹120</span>
+                            </li>
+                            <li className="flex justify-between">
+                              <span>Convenience Fee</span>
+                              <span className="font-medium">₹30</span>
+                            </li>
+                            <li className="flex justify-between">
+                              <span>Handling Fee</span>
+                              <span className="font-medium">₹50</span>
+                            </li>
+                            <li className="flex justify-between">
+                              <span>Blackout Fee</span>
+                              <span className="font-medium">₹50</span>
+                            </li>
+                            <li className="flex justify-between">
+                              <span>Processing Charges</span>
+                              <span className="font-medium">₹50</span>
+                            </li>
+                            <li className="flex justify-between">
+                              <span>Presentation Charges</span>
                               <span className="font-medium">₹50</span>
                             </li>
                             <li className="flex justify-between pt-2 border-t mt-2">
                               <span className="font-bold">Total</span>
-                              <span className="font-bold">₹550</span>
+                              <span className="font-bold">₹3,345</span>
                             </li>
                           </ul>
                         </div>
@@ -226,16 +246,36 @@ export default function OrderPage() {
                         <div className="bg-muted/50 p-4 rounded-lg">
                           <ul className="space-y-2">
                             <li className="flex justify-between">
-                              <span>5 Custom Notebooks</span>
-                              <span className="font-medium">₹500</span>
+                              <span>5 Custom Notebooks (₹599 each)</span>
+                              <span className="font-medium">₹2,995</span>
                             </li>
                             <li className="flex justify-between">
                               <span>Delivery Charge</span>
+                              <span className="font-medium">₹120</span>
+                            </li>
+                            <li className="flex justify-between">
+                              <span>Convenience Fee</span>
+                              <span className="font-medium">₹30</span>
+                            </li>
+                            <li className="flex justify-between">
+                              <span>Handling Fee</span>
+                              <span className="font-medium">₹50</span>
+                            </li>
+                            <li className="flex justify-between">
+                              <span>Blackout Fee</span>
+                              <span className="font-medium">₹50</span>
+                            </li>
+                            <li className="flex justify-between">
+                              <span>Processing Charges</span>
+                              <span className="font-medium">₹50</span>
+                            </li>
+                            <li className="flex justify-between">
+                              <span>Presentation Charges</span>
                               <span className="font-medium">₹50</span>
                             </li>
                             <li className="flex justify-between pt-2 border-t mt-2">
                               <span className="font-bold">Total</span>
-                              <span className="font-bold">₹550</span>
+                              <span className="font-bold">₹3,345</span>
                             </li>
                           </ul>
                         </div>
