@@ -160,31 +160,43 @@ export default function OrderPage() {
                             </li>
                             <li className="flex justify-between">
                               <span>Delivery Charge</span>
-                              <span className="font-medium">₹120</span>
+                              <span className="font-medium">₹130</span>
                             </li>
                             <li className="flex justify-between">
                               <span>Convenience Fee</span>
-                              <span className="font-medium">₹30</span>
+                              <span className="font-medium">₹40</span>
                             </li>
                             <li className="flex justify-between">
                               <span>Handling Fee</span>
-                              <span className="font-medium">₹50</span>
+                              <span className="font-medium">₹60</span>
                             </li>
                             <li className="flex justify-between">
                               <span>Blackout Fee</span>
-                              <span className="font-medium">₹50</span>
+                              <span className="font-medium">₹60</span>
                             </li>
                             <li className="flex justify-between">
                               <span>Processing Charges</span>
-                              <span className="font-medium">₹50</span>
+                              <span className="font-medium">₹60</span>
                             </li>
                             <li className="flex justify-between">
                               <span>Presentation Charges</span>
                               <span className="font-medium">₹50</span>
                             </li>
+                            <li className="flex justify-between">
+                              <span>Surge Fee</span>
+                              <span className="font-medium">₹100</span>
+                            </li>
+                            <li className="flex justify-between text-green-600">
+                              <span>Free RULRR Scale (Included)</span>
+                              <span className="font-medium">₹0</span>
+                            </li>
+                            <li className="flex justify-between text-green-600">
+                              <span>Free BLAK Pen (Included)</span>
+                              <span className="font-medium">₹0</span>
+                            </li>
                             <li className="flex justify-between pt-2 border-t mt-2">
                               <span className="font-bold">Total</span>
-                              <span className="font-bold">₹3,345</span>
+                              <span className="font-bold">₹3,495</span>
                             </li>
                           </ul>
                         </div>
@@ -251,31 +263,43 @@ export default function OrderPage() {
                             </li>
                             <li className="flex justify-between">
                               <span>Delivery Charge</span>
-                              <span className="font-medium">₹120</span>
+                              <span className="font-medium">₹130</span>
                             </li>
                             <li className="flex justify-between">
                               <span>Convenience Fee</span>
-                              <span className="font-medium">₹30</span>
+                              <span className="font-medium">₹40</span>
                             </li>
                             <li className="flex justify-between">
                               <span>Handling Fee</span>
-                              <span className="font-medium">₹50</span>
+                              <span className="font-medium">₹60</span>
                             </li>
                             <li className="flex justify-between">
                               <span>Blackout Fee</span>
-                              <span className="font-medium">₹50</span>
+                              <span className="font-medium">₹60</span>
                             </li>
                             <li className="flex justify-between">
                               <span>Processing Charges</span>
-                              <span className="font-medium">₹50</span>
+                              <span className="font-medium">₹60</span>
                             </li>
                             <li className="flex justify-between">
                               <span>Presentation Charges</span>
                               <span className="font-medium">₹50</span>
                             </li>
+                            <li className="flex justify-between">
+                              <span>Surge Fee</span>
+                              <span className="font-medium">₹100</span>
+                            </li>
+                            <li className="flex justify-between text-green-600">
+                              <span>Free RULRR Scale (Included)</span>
+                              <span className="font-medium">₹0</span>
+                            </li>
+                            <li className="flex justify-between text-green-600">
+                              <span>Free BLAK Pen (Included)</span>
+                              <span className="font-medium">₹0</span>
+                            </li>
                             <li className="flex justify-between pt-2 border-t mt-2">
                               <span className="font-bold">Total</span>
-                              <span className="font-bold">₹3,345</span>
+                              <span className="font-bold">₹3,495</span>
                             </li>
                           </ul>
                         </div>

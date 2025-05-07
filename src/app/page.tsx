@@ -322,7 +322,7 @@ export default function Home() {
                     Affordable
                   </h3>
                   <p className="text-gray-500">
-                    Premium notebooks at ₹599 each, with additional service charges for delivery and processing.
+                    Premium notebooks at ₹599 each, with additional service charges for delivery, processing, and surge fee. Free RULRR Scale and BLAK Pen included!
                   </p>
                 </div>
               </div>
