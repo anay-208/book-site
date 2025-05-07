@@ -9,7 +9,7 @@ export default function PrivacyPage() {
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-1 py-12">
-        <div className="container px-4 md:px-6">
+        <div className="px-4 md:px-6">
           <div className="mx-auto max-w-3xl space-y-8">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Privacy Policy</h1>
@@ -28,7 +28,7 @@ export default function PrivacyPage() {
               </div>
 
               <div className="space-y-2">
-                <h2 className="text-xl font-bold tracking-tight">Information We Don't Collect</h2>
+                <h2 className="text-xl font-bold tracking-tight">Information We Don&apos;t Collect</h2>
                 <p>
                   As this is a demonstration website, we do not collect, store, or process any personal information. Any
                   designs or content uploaded during the simulated ordering process are not stored permanently.
@@ -50,7 +50,7 @@ export default function PrivacyPage() {
               <div className="space-y-2">
                 <h2 className="text-xl font-bold tracking-tight">Contact</h2>
                 <p>
-                  For any questions about this privacy policy or the project in general, please contact Anay Paraswani.
+                  For any questions about this privacy policy or the project in general, please contact Anay Paraswani via email at me@anayparaswani.dev.
                 </p>
               </div>
             </div>

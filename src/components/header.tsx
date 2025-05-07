@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
@@ -21,29 +22,27 @@ export default function Header() {
         isScrolled ? "bg-background/95 shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="container flex h-16 items-center justify-between px-4">
+      <div className=" flex h-16 items-center px-4">
         <Link href="/" className="flex items-center gap-2 group">
+          <Image src="/logo-no-bg-black.png" alt="The Note Co. Logo" width={64} height={64} className="rounded-sm" />
           <span className="text-xl font-bold relative text-gradient">
             The Note Co.
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
           </span>
         </Link>
-        <nav className="hidden md:flex gap-6">
-          <Link href="/" className="text-sm font-medium transition-colors hover:text-primary relative group">
-            Home
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
-          </Link>
-          <Link href="/order" className="text-sm font-medium transition-colors hover:text-primary relative group">
-            Order Now
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
-          </Link>
-          <Link href="/terms" className="text-sm font-medium transition-colors hover:text-primary relative group">
-            T&C
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
-          </Link>
-        </nav>
-        <div className="flex items-center gap-4">
-          <Link href="/order" className="hidden md:block mr-2">
+        <div className="flex-1" />
+        <div className="flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-6">
+            <Link href="/" className="text-sm font-medium transition-colors hover:text-primary relative group">
+              Home
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+            <Link href="/terms" className="text-sm font-medium transition-colors hover:text-primary relative group">
+              T&C
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+          </nav>
+          <Link href="/order" className="hidden md:block">
             <Button className="relative overflow-hidden group">
               <span className="relative z-10">Order Now</span>
               <span className="absolute inset-0 bg-primary-foreground/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
@@ -51,7 +50,7 @@ export default function Header() {
           </Link>
           <Sheet>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className="h-9 w-9 p-0 md:hidden ml-2">
+              <Button variant="ghost" size="icon" className="h-9 w-9 p-0 md:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

@@ -40,7 +40,7 @@ export default function CursorFollower() {
   return (
     <>
       <div
-        className={`fixed pointer-events-none z-50 h-6 w-6 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/20 transition-transform duration-100 ${
+        className={`fixed pointer-events-none z-[9999] h-6 w-6 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/20 transition-transform duration-100 ${
           isVisible ? "opacity-100" : "opacity-0"
         } ${isClicking ? "scale-75" : "scale-100"}`}
         style={{
@@ -49,7 +49,7 @@ export default function CursorFollower() {
         }}
       />
       <div
-        className={`fixed pointer-events-none z-50 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary transition-transform duration-300 ${
+        className={`fixed pointer-events-none z-[9999] h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary transition-transform duration-300 ${
           isVisible ? "opacity-100" : "opacity-0"
         } ${isClicking ? "scale-150" : "scale-100"}`}
         style={{

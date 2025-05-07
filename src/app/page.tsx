@@ -70,7 +70,7 @@ export default function Home() {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-accent/5 rounded-full blur-3xl animate-blob animation-delay-4000"></div>
           </div>
 
-          <div className="container px-4 md:px-6 relative">
+          <div className=" px-4 md:px-6 relative">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-4 animate-fade-in">
                 <div className="inline-block">
@@ -197,7 +197,7 @@ export default function Home() {
           {/* Background pattern */}
           <div className="absolute inset-0 opacity-5 pointer-events-none pattern-bg"></div>
 
-          <div className="container px-4 md:px-6 relative">
+          <div className=" px-4 md:px-6 relative">
             <div className="grid gap-10 text-center">
               <div className="space-y-3">
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight animate-fade-in glowing-text">
